@@ -1,0 +1,55 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  th{
+  border-bottom: 1px solid #ddd;
+  color: gray;
+  font-family: sans-serif;
+  }
+  .selected-item{
+      border: 1px solid;
+  }
+  tbody::before{
+      line-height: 1em;
+      content: "-";
+      color: white;
+      display: block;
+  }
+  .selected-item{
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-family: sans-serif;
+  }
+  .selected-qty{
+      display: flex;
+      flex-direction: row;
+  }
+  .sign-btn{
+      background: transparent;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      overflow: hidden;
+  }
+  .font{
+      font-family: sans-serif;
+      font-size: 14px;
+      color: grey;
+  }
+  .order-total{
+    background: gray;
+    color: black;
+  }
